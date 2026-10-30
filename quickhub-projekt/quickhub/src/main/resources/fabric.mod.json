@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "quickhub",
+  "version": "${version}",
+  "name": "Quick Hub",
+  "description": "Eine GUI mit Schnellbefehlen, Favoriten-TPA, Order-Trends und Zahlungsliste.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.quickhub.QuickHubClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

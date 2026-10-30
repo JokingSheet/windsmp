@@ -1,0 +1,15 @@
+Quick Hub (Fabric, Minecraft 1.21.11, nur Client)
+
+Tasten (aenderbar in den Minecraft-Steuerungen):
+  H = Quick Hub oeffnen (4 Tabs: Schnell, Favoriten, Orders, Zahlungen)
+  J = /orders scannen
+
+Dateien im config-Ordner:
+  quickhub-commands.json         Schnellbefehle (Name, Icon, Befehl)
+  favtpa.json                    Favoriten (gleiche Datei wie die alte FavTPA-Mod)
+  quickhub-orders-*.json/txt     Order-Config, Daten, Debug-Dump
+  quickhub-payments-config.json  Regex-Muster fuer Zahlungen
+  quickhub-payments.json         erkannte Zahlungen
+  quickhub-chat-dollar.txt       letzte Chatzeilen mit $ (zum Anpassen der Muster)
+
+Bitte die alten JARs favtpa und ordertrend aus dem mods-Ordner entfernen.
